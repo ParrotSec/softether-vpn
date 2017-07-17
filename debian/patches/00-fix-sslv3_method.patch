@@ -1,0 +1,18 @@
+Description: Fix SSLv3_method missing method.
+Author: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Bug: https://github.com/SoftEtherVPN/SoftEtherVPN/issues/246#issue-166040835
+Last-Update: 2017-07-17
+
+Index: softether-vpn/src/Mayaqua/Network.c
+===================================================================
+--- softether-vpn.orig/src/Mayaqua/Network.c
++++ softether-vpn/src/Mayaqua/Network.c
+@@ -13015,7 +13015,7 @@ bool StartSSLEx(SOCK *sock, X *x, K *pri
+ 		{
+ 			if (client_tls == false)
+ 			{
+-				SSL_CTX_set_ssl_version(ssl_ctx, SSLv3_method());
++				SSL_CTX_set_ssl_version(ssl_ctx, SSLv23_method());
+ 			}
+ 			else
+ 			{
