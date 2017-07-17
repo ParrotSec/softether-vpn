@@ -1,3 +1,9 @@
+softether-vpn (0:4.22.9634-0parrot2) testing; urgency=medium
+
+  * Fix empty line in init script.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 17 Jul 2017 14:51:12 +0200
+
 softether-vpn (0:4.22.9634-0parrot1) testing; urgency=medium
 
   * Update dependencies for Debian 9.
