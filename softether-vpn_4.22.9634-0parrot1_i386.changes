@@ -1,0 +1,77 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 17 Jul 2017 12:46:53 +0200
+Source: softether-vpn
+Binary: softether-vpnbridge softether-vpnclient softether-vpncmd softether-vpnserver
+Architecture: source i386
+Version: 0:4.22.9634-0parrot1
+Distribution: testing
+Urgency: medium
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Changed-By: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Description:
+ softether-vpnbridge - VPN Bridge daemon
+ softether-vpnclient - VPN Client daemon
+ softether-vpncmd - Command line utils
+ softether-vpnserver - VPN Server daemon
+Changes:
+ softether-vpn (0:4.22.9634-0parrot1) testing; urgency=medium
+ .
+   * Update dependencies for Debian 9.
+   * Fix sslv3 missing method (see d/patches/00-fix-sslv3_method.patch).
+Checksums-Sha1:
+ 1413952382b6c876e16eabc073c6c4e98392388a 2170 softether-vpn_4.22.9634-0parrot1.dsc
+ 36040e73fa890ae2fe6cca2ecf2f691adc8866ae 4536 softether-vpn_4.22.9634-0parrot1.debian.tar.xz
+ 1d4a1f2c527d5b0b34e19d54f8e2031762f1377c 8117 softether-vpn_4.22.9634-0parrot1_i386.buildinfo
+ 57a8e197ba3991e2aafa9deacddc0380873d09df 71604 softether-vpnbridge-dbgsym_4.22.9634-0parrot1_i386.deb
+ a5382003d2aa0198f7102f85da20fdd7f66faddd 2121416 softether-vpnbridge_4.22.9634-0parrot1_i386.deb
+ 0a9ec42c3c17635410d897a9fd02665f1e08b867 71752 softether-vpnclient-dbgsym_4.22.9634-0parrot1_i386.deb
+ cf4b584b4ddec90cbbb68166ca4c7065ba3aa413 2121108 softether-vpnclient_4.22.9634-0parrot1_i386.deb
+ 4542984675923d4c74f44e45dd4f5d786cdb27a8 71444 softether-vpncmd-dbgsym_4.22.9634-0parrot1_i386.deb
+ fbaa655bbfda13d3dfc1f511cfe4dd4daf8fdfbb 2121436 softether-vpncmd_4.22.9634-0parrot1_i386.deb
+ 6f45b355585bb28b1a5d2d7267d37e901284a6fc 71596 softether-vpnserver-dbgsym_4.22.9634-0parrot1_i386.deb
+ eec1c2f8a01d0c305f166c2ecbc018dda4159a5f 2122794 softether-vpnserver_4.22.9634-0parrot1_i386.deb
+Checksums-Sha256:
+ 0c6436e18f4456610e461394486caff8784064dd69a4d7702d205d775056c187 2170 softether-vpn_4.22.9634-0parrot1.dsc
+ ef6c4ed38d3ae7e6cba7a5dde8718f1a74121df70224e2a094bb0d706c76ad44 4536 softether-vpn_4.22.9634-0parrot1.debian.tar.xz
+ 51ffc5cd032b1be4fd827747c46ee53a1163c8814caa057d1fd1895a1950259e 8117 softether-vpn_4.22.9634-0parrot1_i386.buildinfo
+ bbcbce280b3af83b74e0638dd7f762b2c39c8fd913b4284af6fa6930a05fef38 71604 softether-vpnbridge-dbgsym_4.22.9634-0parrot1_i386.deb
+ 332d53e8f963806d3ff4d4a33b0bb60a0a9022feda6cc12166323aa545d4d156 2121416 softether-vpnbridge_4.22.9634-0parrot1_i386.deb
+ e722e1ae00edfa174bd19c5044a87d50bcbb4c2d80c9844afdd468244a5ffee9 71752 softether-vpnclient-dbgsym_4.22.9634-0parrot1_i386.deb
+ 10aef550ae7b1a6b5a7d30484143343bb865e0b8f029397a600e16119923b92b 2121108 softether-vpnclient_4.22.9634-0parrot1_i386.deb
+ a347d1193d77293b37ad60a6ae2708e6402b15d4c4fb585f0b22186f9e1199f9 71444 softether-vpncmd-dbgsym_4.22.9634-0parrot1_i386.deb
+ d4272309a22397e1c730ff870d6f82a3d0aab4dbcf9bfaab2945d2eb818d1ebc 2121436 softether-vpncmd_4.22.9634-0parrot1_i386.deb
+ 1b86ded886de4081bebbb383fce22d6b1cd789fe3988423b26d836262b83b99b 71596 softether-vpnserver-dbgsym_4.22.9634-0parrot1_i386.deb
+ b5c314b775f9e54a086f32fb5dd277e1f568b4843b37884c0c22c69d737eb05d 2122794 softether-vpnserver_4.22.9634-0parrot1_i386.deb
+Files:
+ 2f23980c9eb81df9dbade3ce425998c6 2170 net optional softether-vpn_4.22.9634-0parrot1.dsc
+ 35c851b34df7599170728a04443fe9c0 4536 net optional softether-vpn_4.22.9634-0parrot1.debian.tar.xz
+ d7ed7129f9da2b3c250227f9b6fc1e48 8117 net optional softether-vpn_4.22.9634-0parrot1_i386.buildinfo
+ adb07c4b40ab9fb121b57ec649808e35 71604 debug extra softether-vpnbridge-dbgsym_4.22.9634-0parrot1_i386.deb
+ dd550480db9f9c794d71937a71a0f712 2121416 net optional softether-vpnbridge_4.22.9634-0parrot1_i386.deb
+ 8b2f69656943d8f4fb67f8c7d144679c 71752 debug extra softether-vpnclient-dbgsym_4.22.9634-0parrot1_i386.deb
+ f4c4b36d2485a392722ae64a291117eb 2121108 net optional softether-vpnclient_4.22.9634-0parrot1_i386.deb
+ 99e1c5b7de8a6cea7e14610072e4e2c8 71444 debug extra softether-vpncmd-dbgsym_4.22.9634-0parrot1_i386.deb
+ 37e0f12efdd846db866c842af65719d8 2121436 net optional softether-vpncmd_4.22.9634-0parrot1_i386.deb
+ b16d2af00ed56fc8f0d1c99ea8722b3e 71596 debug extra softether-vpnserver-dbgsym_4.22.9634-0parrot1_i386.deb
+ 1498e545417a3a039c0865c8b39ef974 2122794 net optional softether-vpnserver_4.22.9634-0parrot1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJLBAEBCgA1FiEEYc8pYFOv3R+IElon72iL8ZKn0eQFAllslqoXHHBhbGludXJv
+QHBhcnJvdHNlYy5vcmcACgkQ72iL8ZKn0eSY8RAAg5nHJORSAKhQxpqty3CcL349
+SuUKmhW0YgtQ9uzSSv9ap5p5dGzlPXjXCfl7V+BfwKTPIlHLXkDZERRcrtiJIOJ8
+ik0FVedUcXyYZAd1bLeyjMw8jGXiFyNJwqh75P7jjXWqItvc2VRRKLUL+GqDVvsx
+MteNZ8KwpEEUwmrhv7pkamRFYoFUcI9oGD5BLniRs96esyJiqJaUXTAxCFxTrCbL
+HrzpHlYkwjajDSU3VUJ9Aiz+Dx9HU4geNapvWfbSHHQejGUyvbMJzaWYgDgoCY6f
+n8f3wzxdPPveMS4CYsM2TWxxM7ePIxMSk5B1z45CnyT8Zwm4bpOxSSX68dGddw1Q
+doTxLTUKYwyMsC/3ywj6BSzA+3B+jypOykGUDRr9s2FeBXOVR/giu6+1u2SFnRxP
+R6J9NaaCl9q1ZXWBnWkm2SXzjefcDj7z7r3HPLpVvgego2VWi3GTti/Nu243lOZw
+BC3cUvXJzTtZmwMQo9j4WwudUdMshDlnFghcTFPEpxX3joPTnn2m2GgsYPPGGQe7
+gc9UMm2X+9CWmt+/th35tNZBa+L4XqlyBe1XD+Igg+8OtzPZUiDGoULIxC74QDFY
+ScJPG5SFu5C1JXjbHCXXh7OzL4F0LlvtJ6Dc/g3jKoaV/mb/JJJSOkhXCTkVNNM0
+mvj6oXDl09B7lKiuWAc=
+=+SOF
+-----END PGP SIGNATURE-----

@@ -1,0 +1,209 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: softether-vpn
+Binary: softether-vpnbridge softether-vpnclient softether-vpncmd softether-vpnserver
+Architecture: armhf source
+Version: 0:4.22.9634-0parrot1
+Checksums-Md5:
+ 7641ac538877d0b5dd8934f34445db02 2170 softether-vpn_4.22.9634-0parrot1.dsc
+ cdb38fb92ec8ca0a0b3f3f3866fbca3a 79468 softether-vpnbridge-dbgsym_4.22.9634-0parrot1_armhf.deb
+ d06bc79865c3b7787d22804bdb863c18 1864626 softether-vpnbridge_4.22.9634-0parrot1_armhf.deb
+ 99630ac8136117f27c4203a802b5d733 79292 softether-vpnclient-dbgsym_4.22.9634-0parrot1_armhf.deb
+ ce668cb5686e78ae6f07e62b64cd6ecb 1864964 softether-vpnclient_4.22.9634-0parrot1_armhf.deb
+ b13c33fefe48dc7da68eac472adf539d 79380 softether-vpncmd-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 2fad7a06f17193be6574cf82c7013bd4 1864442 softether-vpncmd_4.22.9634-0parrot1_armhf.deb
+ 5bf4454bba43af28fe1d6e3dbb184166 79004 softether-vpnserver-dbgsym_4.22.9634-0parrot1_armhf.deb
+ c549c2b783b4f49e1116b6b0f7d1ca35 1865970 softether-vpnserver_4.22.9634-0parrot1_armhf.deb
+Checksums-Sha1:
+ bc37553a90c2077e407f39ce0aa73228e9496d34 2170 softether-vpn_4.22.9634-0parrot1.dsc
+ 56727a9025dcd3fcd30593cf9fb0d617122e8982 79468 softether-vpnbridge-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 2e5d254fbc39f3a75f853cd6aed34cf54fd55948 1864626 softether-vpnbridge_4.22.9634-0parrot1_armhf.deb
+ d6fdc3e438703a6296ba22579d1677d15a61a3c0 79292 softether-vpnclient-dbgsym_4.22.9634-0parrot1_armhf.deb
+ deab32ec4137f68fbffc2d7fca782d5e45777344 1864964 softether-vpnclient_4.22.9634-0parrot1_armhf.deb
+ b7c4b011829a3359659a195d07fd0e8c511c2cff 79380 softether-vpncmd-dbgsym_4.22.9634-0parrot1_armhf.deb
+ ff094d1db1d12cd61e8589eaacd89656f75cf6a3 1864442 softether-vpncmd_4.22.9634-0parrot1_armhf.deb
+ 393e2fcd08fa13d01c2d93fbfda4029efa97508f 79004 softether-vpnserver-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 9b28f0100d3a357c05de14022a21b5f57300260c 1865970 softether-vpnserver_4.22.9634-0parrot1_armhf.deb
+Checksums-Sha256:
+ 06f97d2066fe8f4004e5033e85e6b2dced4f2af9375e28da3ee11cb6358ab39e 2170 softether-vpn_4.22.9634-0parrot1.dsc
+ 564504bd277e7b42ec040de34424eee5e2c130050a9dcf10cdf8aa2ce2acdc0f 79468 softether-vpnbridge-dbgsym_4.22.9634-0parrot1_armhf.deb
+ ddffa46187f848a54045382dc24b3fd26374eb20728246837aa97e7c59f3aee4 1864626 softether-vpnbridge_4.22.9634-0parrot1_armhf.deb
+ 812ecb98dd84ed4b5239cb8d4a689187556499d0d43aec1379336eebfe157e52 79292 softether-vpnclient-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 6167e2df7f8de41dbebbf5c68fc9422987408fcd3959d38b0baac965712ea219 1864964 softether-vpnclient_4.22.9634-0parrot1_armhf.deb
+ c1f0b4c2e1c2a4955cb32b33c109373900df74d768eb6b6aa3e5bb60f3740fcf 79380 softether-vpncmd-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 8e5462f44f8ce10308669b996529547424bab389fd5b86b3c963574b3586e1b1 1864442 softether-vpncmd_4.22.9634-0parrot1_armhf.deb
+ 08590d693a219df5066db55a62382d4412ed5a9d6f3696b8baa10932398b16ac 79004 softether-vpnserver-dbgsym_4.22.9634-0parrot1_armhf.deb
+ ebdab13002399af315f4183dbb95fda9d02ea0bcb57f824adf9960453f31a555 1865970 softether-vpnserver_4.22.9634-0parrot1_armhf.deb
+Build-Origin: Parrot
+Build-Architecture: armhf
+Build-Date: Mon, 17 Jul 2017 12:59:42 +0200
+Build-Path: /build/softether-vpn-Rsj7m8/softether-vpn-4.22.9634
+Installed-Build-Depends:
+ autoconf (= 2.69-10),
+ automake (= 1:1.15.1-1),
+ autopoint (= 0.19.8.1-2),
+ autotools-dev (= 20161112.1),
+ base-files (= 1:2017.6parrot0),
+ base-passwd (= 3.5.43),
+ bash (= 4.4-5),
+ binutils (= 2.28-6),
+ bsdmainutils (= 9.0.12+nmu1),
+ bsdutils (= 1:2.29.2-1),
+ build-essential (= 12.3),
+ bzip2 (= 1.0.6-8.1),
+ coreutils (= 8.26-3),
+ cpp (= 4:6.3.0-4),
+ cpp-6 (= 6.3.0-18),
+ dash (= 0.5.8-2.4),
+ debconf (= 1.5.61),
+ debhelper (= 10.2.5),
+ debianutils (= 4.8.1.1),
+ dh-autoreconf (= 14),
+ dh-exec (= 0.23+b1),
+ dh-strip-nondeterminism (= 0.035-2),
+ diffutils (= 1:3.5-3),
+ dpkg (= 1.18.24+parrot0),
+ dpkg-dev (= 1.18.24+parrot0),
+ e2fslibs (= 1.43.4-2),
+ e2fsprogs (= 1.43.4-2),
+ file (= 1:5.30-1),
+ findutils (= 4.6.0+git+20170606-2),
+ g++ (= 4:6.3.0-4),
+ g++-6 (= 6.3.0-18),
+ gcc (= 4:6.3.0-4),
+ gcc-6 (= 6.3.0-18),
+ gcc-6-base (= 6.3.0-18),
+ gcc-7-base (= 7.1.0-7),
+ gettext (= 0.19.8.1-2),
+ gettext-base (= 0.19.8.1-2),
+ grep (= 2.27-2),
+ groff-base (= 1.22.3-9),
+ gzip (= 1.6-5+b1),
+ hostname (= 3.18+b1),
+ init-system-helpers (= 1.47+parrot4),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.59-1),
+ libasan3 (= 6.3.0-18),
+ libatomic1 (= 7.1.0-7),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.7.7-1),
+ libaudit1 (= 1:2.7.7-1+b1),
+ libblkid1 (= 2.29.2-1),
+ libbsd0 (= 0.8.5-1),
+ libbz2-1.0 (= 1.0.6-8.1),
+ libc-bin (= 2.24-12),
+ libc-dev-bin (= 2.24-12),
+ libc6 (= 2.24-12),
+ libc6-dev (= 2.24-12),
+ libcap-ng0 (= 0.7.7-3+b1),
+ libcc1-0 (= 7.1.0-7),
+ libcomerr2 (= 1.43.4-2),
+ libcroco3 (= 0.6.12-1),
+ libdb5.3 (= 5.3.28-12+b1),
+ libdebconfclient0 (= 0.228),
+ libdpkg-perl (= 1.18.24+parrot0),
+ libfdisk1 (= 2.29.2-1),
+ libffi6 (= 3.2.1-6),
+ libfile-stripnondeterminism-perl (= 0.035-2),
+ libgcc-6-dev (= 6.3.0-18),
+ libgcc1 (= 1:7.1.0-7),
+ libgcrypt20 (= 1.7.8-1),
+ libgdbm3 (= 1.8.3-14),
+ libglib2.0-0 (= 2.52.3-1),
+ libgmp10 (= 2:6.1.2+dfsg-1),
+ libgomp1 (= 7.1.0-7),
+ libgpg-error0 (= 1.27-3),
+ libicu57 (= 57.1-6),
+ libisl15 (= 0.18-1),
+ liblz4-1 (= 0.0~r131-2+b1),
+ liblzma5 (= 5.2.2-1.2+b1),
+ libmagic-mgc (= 1:5.30-1),
+ libmagic1 (= 1:5.30-1),
+ libmount1 (= 2.29.2-1),
+ libmpc3 (= 1.0.3-1+b2),
+ libmpfr4 (= 3.1.5-1),
+ libncurses5 (= 6.0+20161126-1),
+ libncurses5-dev (= 6.0+20161126-1),
+ libncursesw5 (= 6.0+20161126-1),
+ libpam-modules (= 1.1.8-3.6),
+ libpam-modules-bin (= 1.1.8-3.6),
+ libpam-runtime (= 1.1.8-3.6),
+ libpam0g (= 1.1.8-3.6),
+ libpcre3 (= 2:8.39-3),
+ libperl5.24 (= 5.24.1-4),
+ libpipeline1 (= 1.4.1-2),
+ libreadline-dev (= 7.0-3),
+ libreadline7 (= 7.0-3),
+ libselinux1 (= 2.6-3+b2),
+ libsemanage-common (= 2.6-2),
+ libsemanage1 (= 2.6-2+b1),
+ libsepol1 (= 2.6-2),
+ libsigsegv2 (= 2.11-1),
+ libsmartcols1 (= 2.29.2-1),
+ libss2 (= 1.43.4-2),
+ libssl1.0-dev (= 1.0.2l-2),
+ libssl1.0.2 (= 1.0.2l-2),
+ libstdc++-6-dev (= 6.3.0-18),
+ libstdc++6 (= 7.1.0-7),
+ libsystemd0 (= 233-9),
+ libtimedate-perl (= 2.3000-2),
+ libtinfo-dev (= 6.0+20161126-1),
+ libtinfo5 (= 6.0+20161126-1),
+ libtool (= 2.4.6-2),
+ libubsan0 (= 7.1.0-7),
+ libudev1 (= 233-9),
+ libunistring0 (= 0.9.6+really0.9.3-0.1),
+ libustr-1.0-1 (= 1.0.4-6),
+ libuuid1 (= 2.29.2-1),
+ libxml2 (= 2.9.4+dfsg1-2.2+b1),
+ linux-libc-dev (= 4.11.6-1parrot6),
+ login (= 1:4.4-4.1),
+ m4 (= 1.4.18-1),
+ make (= 4.1-9.1),
+ man-db (= 2.7.6.1-2),
+ mawk (= 1.3.3-17+b3),
+ mount (= 2.29.2-1),
+ multiarch-support (= 2.24-12),
+ ncurses-base (= 6.0+20161126-1),
+ ncurses-bin (= 6.0+20161126-1),
+ passwd (= 1:4.4-4.1),
+ patch (= 2.7.5-1+b2),
+ perl (= 5.24.1-4),
+ perl-base (= 5.24.1-4),
+ perl-modules-5.24 (= 5.24.1-4),
+ po-debconf (= 1.0.20),
+ readline-common (= 7.0-3),
+ sed (= 4.4-1),
+ sensible-utils (= 0.0.9),
+ sysvinit-utils (= 2.88dsf-59.9),
+ tar (= 1.29b-1.1),
+ util-linux (= 2.29.2-1),
+ xz-utils (= 5.2.2-1.2+b1),
+ zlib1g (= 1:1.2.8.dfsg-5),
+ zlib1g-dev (= 1:1.2.8.dfsg-5)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=8"
+ LANG="it_IT.UTF-8"
+ LC_ALL="POSIX"
+ SOURCE_DATE_EPOCH="1500288413"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJLBAEBCgA1FiEEYc8pYFOv3R+IElon72iL8ZKn0eQFAllsmLIXHHBhbGludXJv
+QHBhcnJvdHNlYy5vcmcACgkQ72iL8ZKn0eRBxhAAkYoiyltMocUErG4roBoJZazf
+8T5DRW2JGGNHOTkcwamVc64mq2FMaur2yw65RodqZyfM7Y59c10mVz50FN4INITU
+w6Ct99/fFW+fHTJllizyevBZfeiEnR4pzcPLgetyrpqDpngwMQhW44Skg7UeUWBS
+m4gMT5gk7zW2VG9qe4ijK0J+g7jjrSyvRgedyFzwHk4pUmyJSziVDc/y5lG7pUIe
+ZLOKWPazwPVrH1y6xajLtpAG9k473IlkVC3NvC6+DEewqojAK8Osq35NVmgkRu2E
+R1pc+UiNTBy2A2rWavuNbJQpEGZ9knOWtIp/3KF6MM1RTfMJYsYYdW2sI+lMLyqp
+uJFAT4c6avy6NRFS9a5UzUju/7xxOYZ0PT/CQ+beyVMyV621fINKDW7Pt39p1NoF
+6oGdpDD5WuEBiGAAA1+ZJwn+MrRDf39/TfD204lSSkHyaPbfUuJbf78p+SC8h1Wp
+2cvz+EHgi83qmF8NXil5NYhPfDScFRoZmSaxiskcEU67kah3hZ6uUPk9jeS7Erog
+gUrEVp82SFNu3SCutMsnov0gjwLACL2aBJj4jsUITLcA9HsHUxxAddPvFqXMW6Ir
+W1z50avVTjXTn3N0xBBKUuSFih7za5KGmdPf/Tu8MmyxFxg/uSXrULb0v2c1mQLb
+55Ad+8/aldyFGumNb1E=
+=254c
+-----END PGP SIGNATURE-----

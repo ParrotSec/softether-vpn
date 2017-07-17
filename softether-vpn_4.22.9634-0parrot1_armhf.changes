@@ -1,0 +1,77 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 17 Jul 2017 12:46:53 +0200
+Source: softether-vpn
+Binary: softether-vpnbridge softether-vpnclient softether-vpncmd softether-vpnserver
+Architecture: source armhf
+Version: 0:4.22.9634-0parrot1
+Distribution: testing
+Urgency: medium
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Changed-By: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Description:
+ softether-vpnbridge - VPN Bridge daemon
+ softether-vpnclient - VPN Client daemon
+ softether-vpncmd - Command line utils
+ softether-vpnserver - VPN Server daemon
+Changes:
+ softether-vpn (0:4.22.9634-0parrot1) testing; urgency=medium
+ .
+   * Update dependencies for Debian 9.
+   * Fix sslv3 missing method (see d/patches/00-fix-sslv3_method.patch).
+Checksums-Sha1:
+ bc37553a90c2077e407f39ce0aa73228e9496d34 2170 softether-vpn_4.22.9634-0parrot1.dsc
+ 36040e73fa890ae2fe6cca2ecf2f691adc8866ae 4536 softether-vpn_4.22.9634-0parrot1.debian.tar.xz
+ 7996df60eb269e6951642decd5a2e42d6b3d5508 8046 softether-vpn_4.22.9634-0parrot1_armhf.buildinfo
+ 56727a9025dcd3fcd30593cf9fb0d617122e8982 79468 softether-vpnbridge-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 2e5d254fbc39f3a75f853cd6aed34cf54fd55948 1864626 softether-vpnbridge_4.22.9634-0parrot1_armhf.deb
+ d6fdc3e438703a6296ba22579d1677d15a61a3c0 79292 softether-vpnclient-dbgsym_4.22.9634-0parrot1_armhf.deb
+ deab32ec4137f68fbffc2d7fca782d5e45777344 1864964 softether-vpnclient_4.22.9634-0parrot1_armhf.deb
+ b7c4b011829a3359659a195d07fd0e8c511c2cff 79380 softether-vpncmd-dbgsym_4.22.9634-0parrot1_armhf.deb
+ ff094d1db1d12cd61e8589eaacd89656f75cf6a3 1864442 softether-vpncmd_4.22.9634-0parrot1_armhf.deb
+ 393e2fcd08fa13d01c2d93fbfda4029efa97508f 79004 softether-vpnserver-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 9b28f0100d3a357c05de14022a21b5f57300260c 1865970 softether-vpnserver_4.22.9634-0parrot1_armhf.deb
+Checksums-Sha256:
+ 06f97d2066fe8f4004e5033e85e6b2dced4f2af9375e28da3ee11cb6358ab39e 2170 softether-vpn_4.22.9634-0parrot1.dsc
+ ef6c4ed38d3ae7e6cba7a5dde8718f1a74121df70224e2a094bb0d706c76ad44 4536 softether-vpn_4.22.9634-0parrot1.debian.tar.xz
+ 3c6dbed42c450bed7989690959ebf26f6d4295e7ad0b5247192386edb69dacb8 8046 softether-vpn_4.22.9634-0parrot1_armhf.buildinfo
+ 564504bd277e7b42ec040de34424eee5e2c130050a9dcf10cdf8aa2ce2acdc0f 79468 softether-vpnbridge-dbgsym_4.22.9634-0parrot1_armhf.deb
+ ddffa46187f848a54045382dc24b3fd26374eb20728246837aa97e7c59f3aee4 1864626 softether-vpnbridge_4.22.9634-0parrot1_armhf.deb
+ 812ecb98dd84ed4b5239cb8d4a689187556499d0d43aec1379336eebfe157e52 79292 softether-vpnclient-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 6167e2df7f8de41dbebbf5c68fc9422987408fcd3959d38b0baac965712ea219 1864964 softether-vpnclient_4.22.9634-0parrot1_armhf.deb
+ c1f0b4c2e1c2a4955cb32b33c109373900df74d768eb6b6aa3e5bb60f3740fcf 79380 softether-vpncmd-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 8e5462f44f8ce10308669b996529547424bab389fd5b86b3c963574b3586e1b1 1864442 softether-vpncmd_4.22.9634-0parrot1_armhf.deb
+ 08590d693a219df5066db55a62382d4412ed5a9d6f3696b8baa10932398b16ac 79004 softether-vpnserver-dbgsym_4.22.9634-0parrot1_armhf.deb
+ ebdab13002399af315f4183dbb95fda9d02ea0bcb57f824adf9960453f31a555 1865970 softether-vpnserver_4.22.9634-0parrot1_armhf.deb
+Files:
+ 7641ac538877d0b5dd8934f34445db02 2170 net optional softether-vpn_4.22.9634-0parrot1.dsc
+ 35c851b34df7599170728a04443fe9c0 4536 net optional softether-vpn_4.22.9634-0parrot1.debian.tar.xz
+ 150935a1c9790656a137603e74746bb0 8046 net optional softether-vpn_4.22.9634-0parrot1_armhf.buildinfo
+ cdb38fb92ec8ca0a0b3f3f3866fbca3a 79468 debug extra softether-vpnbridge-dbgsym_4.22.9634-0parrot1_armhf.deb
+ d06bc79865c3b7787d22804bdb863c18 1864626 net optional softether-vpnbridge_4.22.9634-0parrot1_armhf.deb
+ 99630ac8136117f27c4203a802b5d733 79292 debug extra softether-vpnclient-dbgsym_4.22.9634-0parrot1_armhf.deb
+ ce668cb5686e78ae6f07e62b64cd6ecb 1864964 net optional softether-vpnclient_4.22.9634-0parrot1_armhf.deb
+ b13c33fefe48dc7da68eac472adf539d 79380 debug extra softether-vpncmd-dbgsym_4.22.9634-0parrot1_armhf.deb
+ 2fad7a06f17193be6574cf82c7013bd4 1864442 net optional softether-vpncmd_4.22.9634-0parrot1_armhf.deb
+ 5bf4454bba43af28fe1d6e3dbb184166 79004 debug extra softether-vpnserver-dbgsym_4.22.9634-0parrot1_armhf.deb
+ c549c2b783b4f49e1116b6b0f7d1ca35 1865970 net optional softether-vpnserver_4.22.9634-0parrot1_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJLBAEBCgA1FiEEYc8pYFOv3R+IElon72iL8ZKn0eQFAllsmLMXHHBhbGludXJv
+QHBhcnJvdHNlYy5vcmcACgkQ72iL8ZKn0eSL4RAAkc82L0oxqB5WoVWSb2fZ3d3E
+p+/K+eBSoQr2F8xvMHkKSmKUpKlWo0YA+tmvMTd/U2XRITshs00YdVD7qGjo06Ek
+mJTTSbgbllDF73uN9wPhNoV46HapmSfeXHfimUYu8WixWYKTLJcLIP4GaAY0nEUx
+kH5iG308uDWEIYRJ68V/qUaUaI8/dB7lKwrZ1hx/cmodkc7dmPR5/uO+g64GTysM
+JOMVRmmiAQAFoDtIxPBVsbypcNoOjOimzdeAC+UMr2FvtPWgBuCc1PmHygg64ehI
+sFMhaIomi7FT+CsXj7M2JwqjYqdHIO/qktbcF2d9S9/y47OrsGaCFv611TJovJmk
+AwO6gar5lXBKh1bftRqOUsIgnpUH0Sq2o1siU0080p3sm9wUJVaiQlXdhK17j6zj
+hkodFLSS0DDMwJ7oAKZzE24IgxigH2LTFAH9dkH/+2nu36p2SyhX7kfBR+M8HEZQ
+v1cku5d6sHhB4iL4nozf9zKEsKL6mmrJy1RtWqRm2XYRQmOe+nMAZm3GougWcWbA
+22DFsgXHf7a5lerVunxQGrZD88rxROQ7G9tbbgQ+8vlMtgdqu7GioZ4jekHJGPda
+/6Xhsj8fst1Uu57dWNWRlIqjbYvPkU5ZlSJYSxhHz0MyNQ33+iajdcsvtJV/oRdy
+FzdmFckgGcB0a0jOpeQ=
+=qSq6
+-----END PGP SIGNATURE-----
